@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+reports/*.xml
+reports/*.txt
+.env
+.DS_Store

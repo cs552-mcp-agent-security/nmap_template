@@ -1,0 +1,14 @@
+{
+  "template_id": "nmap_template",
+  "category": "network_security",
+  "task_type": "nmap_local_scan",
+  "clean_base": true,
+  "template_variables": {
+    "PROJECT_NAME": "nmap_template",
+    "REPORT_DIR": "reports"
+  },
+  "required_commands": [
+    "make validate"
+  ],
+  "variant_guidance": "Fork this clean base repository to create scenario-specific benchmark variants."
+}

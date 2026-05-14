@@ -1,0 +1,13 @@
+{
+  "task": "nmap_local_scan",
+  "required_files": [
+    "reports/nmap-local.xml"
+  ],
+  "allowed_targets": [
+    "127.0.0.1",
+    "localhost",
+    "::1"
+  ],
+  "expected_port": 8080,
+  "validation_command": "make validate"
+}
